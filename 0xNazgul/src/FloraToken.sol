@@ -200,10 +200,15 @@ contract FloraToken is Ownable, ERC20("Flora Token", 'FLORA') {
         return uint32(n);
     }
 
-    function getChainId() internal pure returns (uint) {
-        uint256 chainId;
+    function getChainId() internal view returns (uint) {
+        /*uint256 chainId;
         chainId = 5;
-        return chainId;
+        return chainId;*/
+        uint256 id;
+        assembly {
+            id := chainid()
+        }
+        return id;
     }
 
     /*///////////////////////////////////////////////////////////////
