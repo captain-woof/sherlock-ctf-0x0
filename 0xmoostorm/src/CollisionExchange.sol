@@ -1,6 +1,6 @@
 pragma solidity ^0.8.4;
 
-contract  OrderBook {
+contract OrderBook {
     uint public amount;
     address public trader;
 
