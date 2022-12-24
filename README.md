@@ -16,4 +16,36 @@ Original description:
 
 ## Solved by me here
 
-- 0xNazgul
+- [X] 0xmoostorm
+- [X] 0xNazgul
+- [ ] agusduha
+- [ ] bahurum
+- [ ] band0x
+- [ ] Baraa42
+- [ ] BowTiedPickle
+- [ ] chaboo
+- [ ] ebaizel
+- [ ] hack3r-0m
+- [ ] iflp
+- [ ] johngish
+- [ ] JustDravee
+- [ ] KahanMajmudar
+- [ ] kankan-0
+- [ ] kuldeep23907
+- [ ] lucyoa
+- [ ] luksgrin
+- [ ] mhchia
+- [ ] names md
+- [ ] naps62
+- [ ] PeterisPrieditis
+- [ ] plotchy
+- [ ] RomiRand
+- [ ] saianmk
+- [ ] sidduHERE
+- [ ] smbsp
+- [ ] teryanarmen
+- [ ] Thro77le
+- [ ] t-nero
+- [ ] tqtsar
+- [ ] wuwe1
+- [ ] ych18
