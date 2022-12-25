@@ -18,7 +18,7 @@ Original description:
 
 - [X] 0xmoostorm
 - [X] 0xNazgul
-- [ ] agusduha
+- [X] agusduha
 - [ ] bahurum
 - [ ] band0x
 - [ ] Baraa42
