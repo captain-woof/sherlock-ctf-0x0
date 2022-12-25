@@ -19,7 +19,7 @@ Original description:
 - [X] 0xmoostorm
 - [X] 0xNazgul
 - [X] agusduha
-- [ ] bahurum
+- [X] bahurum
 - [ ] band0x
 - [ ] Baraa42
 - [ ] BowTiedPickle
