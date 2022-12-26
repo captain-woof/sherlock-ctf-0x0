@@ -4,7 +4,15 @@
 
 This is a clone of the [Sherlock CTF repo](https://github.com/sherlock-protocol/sherlock-ctf-0x0), with my solutions in each challenge folder.
 
-Original description:
+## How to clone
+
+Run
+
+```
+git clone --recurse-submodules https://github.com/captain-woof/sherlock-ctf-0x0.git
+```
+
+## Original description
 
 > 32 participants selected from Secureum bootcamp were locked in a 7-day battle to hack each other’s contracts.
 
