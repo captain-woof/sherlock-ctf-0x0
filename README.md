@@ -20,7 +20,7 @@ Original description:
 - [X] 0xNazgul
 - [X] agusduha
 - [X] bahurum
-- [ ] band0x
+- [X] band0x
 - [ ] Baraa42
 - [ ] BowTiedPickle
 - [ ] chaboo
