@@ -22,3 +22,13 @@
 [submodule "challenges/band0x/lib/forge-std"]
 	path = challenges/band0x/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "challenges/Baraa42/lib/forge-std"]
+	path = challenges/Baraa42/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "lib/openzeppelin-contracts-3"]
+	path = lib/openzeppelin-contracts-3
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+	branch = v3.4.0
+[submodule "lib/ds-test"]
+	path = lib/ds-test
+	url = https://github.com/dapphub/ds-test
