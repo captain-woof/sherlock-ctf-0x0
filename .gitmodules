@@ -34,3 +34,6 @@
 	path = challenges/chaboo/lib/openzeppelin-contracts
 	url = https://github.com/Openzeppelin/openzeppelin-contracts
 	branch = v4.3.0
+[submodule "challenges/hack3r-0m/lib/forge-std"]
+	path = challenges/hack3r-0m/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

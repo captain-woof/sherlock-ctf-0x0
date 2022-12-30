@@ -33,7 +33,7 @@ git clone --recurse-submodules https://github.com/captain-woof/sherlock-ctf-0x0.
 - [X] BowTiedPickle
 - [X] chaboo
 - [X] ebaizel
-- [ ] hack3r-0m
+- [X] hack3r-0m
 - [ ] iflp
 - [ ] johngish
 - [ ] JustDravee
